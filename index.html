@@ -15,8 +15,9 @@
   .tag { font-size:20px; color:var(--sage); font-weight:600; }
   .sub { font-size:17px; color:rgba(29,43,34,.7); margin-top:14px; max-width:480px; margin-left:auto; margin-right:auto; }
   .mark { display:inline-block; }
-  .cta { display:inline-block; margin-top:28px; background:var(--sage); color:var(--cream); font-weight:700; padding:14px 28px; border-radius:14px; text-decoration:none; }
-  .cta:hover { background:var(--sage2); }
+  .stores { display:flex; flex-wrap:wrap; justify-content:center; gap:12px; margin-top:28px; }
+  .cta { display:inline-block; background:var(--sage); color:var(--cream); font-weight:700; padding:14px 28px; border-radius:14px; text-decoration:none; }
+  a.cta:hover { background:var(--sage2); }
   .trial { display:block; margin-top:12px; font-size:14px; color:rgba(29,43,34,.6); }
   section { margin-top:64px; }
   h2 { font-size:24px; font-weight:800; margin-bottom:16px; }
@@ -46,8 +47,12 @@
     <h1>Hearth</h1>
     <div class="tag">Private AI session notes.</div>
     <p class="sub">Record a session. Get a finished note. Nothing leaves your device.</p>
-    <!-- Replace # with your App Store link after release -->
-    <a class="cta" href="#">Download on the App Store</a>
+    <div class="stores">
+      <!-- Replace # with your App Store link after release -->
+      <a class="cta" href="#">Download on the App Store</a>
+      <!-- When live, change this span to an <a class="cta" href="store link"> -->
+      <span class="cta">Google Play: coming soon</span>
+    </div>
     <span class="trial">Free for 30 days. Full access, no card, no account.</span>
   </header>
 
@@ -61,7 +66,7 @@
 
   <section class="privacy-band">
     <h2>Private by design</h2>
-    <p>Cloud apps send your words to a server. Hearth does not. Recordings, transcripts, and notes stay on your iPhone or iPad, processed by on-device Apple Intelligence. No cloud. No account. No one reading your clients' words but you.</p>
+    <p>Cloud apps send your words to a server. Hearth does not. Recordings, transcripts, and notes stay on your device. On iPhone and iPad, they are processed by on-device Apple Intelligence. No cloud. No account. No one reading your clients' words but you.</p>
   </section>
 
   <section>
@@ -71,7 +76,7 @@
 
   <footer>
     <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:devasumapps@gmail.com">Contact</a>
-    <p style="margin-top:10px">Note writing requires a device with Apple Intelligence.</p>
+    <p style="margin-top:10px">On iPhone and iPad, note writing requires a device with Apple Intelligence.</p>
   </footer>
 
 </div>
